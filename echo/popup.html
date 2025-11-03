@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volume Control</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h1>Volume Control</h1>
+        <div class="volume-control-box">
+        <input type="range" id="volumeSlider" min="0" max="200" value="100" step="1" class="slider">
+        <button id="resetButton" title="Reset volume">
+            <img id="resetIcon" src="icons/light_reset128.png" alt="Reset">
+        </button>
+        </div>
+        <span id="volumeValue">100%</span>
+        <span class="github_container"><a id="github" href="https://github.com/sl1dee36">created by @sl1dee36</a></span>
+    </div>
+    <script src="popup.js"></script>
+    <script src="ambient.js"></script>
+</body>
+</html>
